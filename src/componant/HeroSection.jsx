@@ -1,4 +1,4 @@
-import React from 'react'
+
 import manImg from '../img/man-cat.jpg'
 
 function HeroSection() {
