@@ -1,16 +1,15 @@
 function Navbar() {
   return (
     <>
-      <hr></hr>
-      <nav className='flex justify-between my-1'>
+      <nav className="flex justify-between items-center my-1 container w-full max-w-full mx-auto ">
         <div>
-          <span className='pl-10'>Thanate D.</span>
+          <span className="flex text-lg font-bold ">Thanate D.</span>
         </div>
-        <div>
-          <button className="border border-black rounded-2xl w-24 p-1 text-sm text-center mr-1">
+        <div className="pb-3">
+          <button className="border border-black rounded-3xl w-36 h-12 p-1 text-base text-[#26231E] text-center mr-2">
             Login
           </button>
-          <button className="rounded-2xl w-24 p-1 text-white bg-black text-sm text-center">
+          <button className="rounded-3xl w-36 h-12 p-1 text-base text-white bg-black  text-center">
             Sign up
           </button>
         </div>
